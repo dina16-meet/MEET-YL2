@@ -1,0 +1,23 @@
+ 
+
+body {
+    background-image: url('dina.jpg');
+    background-size: 3000px 1800px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} 
+div1 {
+	 
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    width:50em;
+    height:100em;
+    margin-top: -50em; /*set to a negative number 1/2 of your height*/
+    margin-left: -25em; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+   
+ 
+}
+
