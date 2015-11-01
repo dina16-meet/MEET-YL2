@@ -1,0 +1,7 @@
+{% extends "contactme.html" %} <!-- This line is telling flask to use the code in base.html, and fill in the blocks in base.html with the following code -->
+{% block head %}  
+	<title>contact me Page</title>
+{% endblock %}
+{% block content %}
+	 <h1 class="redesh">Hello {{ name }}!</h1>  
+{% endblock %}<!-- this is telling flask that this is the end of filling block content in base.html -->

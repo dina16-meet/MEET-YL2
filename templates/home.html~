@@ -1,0 +1,32 @@
+<html>
+
+<head>
+<title> Welcome to Dina's website! </title>
+<link rel="stylesheet" type="text/css" href="../static/styling.css">
+</head>
+
+<body>
+ <div align="center">
+ <nav>
+  <img src="http://www.roleplaygateway.com/roleplay/the-shadowhunter-chronicles-city-of-snow/image"/>
+  <a href="{{url_for('aboutme')}}"> about me </a> 
+  <a href="{{url_for('contactme')}}"> contact me</a>
+</nav>
+</div>
+ 
+ <div align="center">
+<h1>hello!</h1>
+<h2>Welcome to the home page...</h1>
+<p>Hey all! It's DINA </p>
+<p>I'm almost 16!<p>
+<p>I like reading books</p>
+<p>and I have no idea how to make this more creative :/ <p>
+ 
+</div> 
+
+
+</body>
+
+
+
+</html>

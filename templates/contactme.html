@@ -1,0 +1,30 @@
+<html>
+
+<head>
+<title> Welcome to Dina's website! </title>
+<link rel="stylesheet" type="text/css" href="../static/styling.css">
+
+</head>
+
+<body>
+<br>
+
+<div align="center">
+ <nav>
+  <img src="http://www.roleplaygateway.com/roleplay/the-shadowhunter-chronicles-city-of-snow/image"/>
+  <a href="{{url_for('aboutme')}}"> about me </a> 
+  <a href="{{url_for('home')}}"> home </a>
+</nav> 
+</div>
+
+
+
+<form action="{{url_for('contactme')}}" method="POST">
+email <input name="email" type="text" > <br>
+name <input name="name" type="text">
+<input type="submit">
+ 
+</form>
+
+</body>
+</html>

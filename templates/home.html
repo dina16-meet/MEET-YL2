@@ -2,15 +2,15 @@
 
 <head>
 <title> Welcome to Dina's website! </title>
-<link rel="stylesheet" type="text/css" href="styling.css">
+<link rel="stylesheet" type="text/css" href="../static/styling.css">
 </head>
 
 <body>
  <div align="center">
  <nav>
   <img src="http://www.roleplaygateway.com/roleplay/the-shadowhunter-chronicles-city-of-snow/image"/>
-  <a href="aboutme.html"> about me </a> 
-  <a href="contactme.html"> contact me</a>
+  <a href="{{url_for('aboutme')}}"> about me </a> 
+  <a href="{{url_for('contactme')}}"> contact me</a>
 </nav>
 </div>
  
