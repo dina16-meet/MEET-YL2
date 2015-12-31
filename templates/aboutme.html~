@@ -1,44 +1,47 @@
- 
-<html>
-
+ <html>
 <head>
 <title> Welcome to Dina's website! </title>
 <link rel="stylesheet" type="text/css" href="../static/styling.css">
-
 </head>
 
+
 <body>
-<div align="center">
- <nav>
+<div id="maindiv">
+ <nav align="center">
   <img src="http://www.roleplaygateway.com/roleplay/the-shadowhunter-chronicles-city-of-snow/image"/>
   <a href="{{url_for('home')}}"> home</a> 
   <a href="{{url_for('contactme')}}"> contact me</a>
 </nav> 
-</div>
  
- <div align="left">
- hobbies:<ul>
-  <li>swimming</li>
-  <li>reading</li>
-  <li>idk</li>
-</ul> 
-these are my Fav books:<table border="5">
+
+ <div id="mydiv">
+ 
+ <h1>My hobbies are:</h1>:<ul>
+ <li>Swimming </li>
+ <li>Reading</li>
+   </ul> 
+These are my favorite books:<table border="5">
   <tr>
     <th>book</th>
     <th>author</th>
   </tr>
   <tr>
-    <td>maze runner</td>
+    <td>The Maze Runner</td>
     <td>James Dashner</td>
   </tr>
 <tr>
-    <td>maze runner</td>
-    <td>James Dashner</td>
+    <td>Divergent</td>
+    <td>Veronica Roth</td>
+  </tr>
+<tr>
+    <td>The Mortal Instuments</td>
+    <td>Cassdandra Clare</td>
   </tr>
 </table> 
- 
+</div>
 </div>
 
+ 
 
 
 </body>

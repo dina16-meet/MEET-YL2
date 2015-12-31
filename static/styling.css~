@@ -1,9 +1,0 @@
- 
-
-body {
-    background-image: url('dina.jpg');
-    background-size: 3000px 1800px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-} 
- 

@@ -1,9 +1,48 @@
  
 
-body {
-    background-image: url('dina.jpg');
-    background-size: 3000px 1800px;
+body {    background-image: url('dina.jpg');
+
+    background-size:3000px 1800px;
     background-repeat: no-repeat;
     background-attachment: fixed;
 } 
+body {
+    color: white;
+}
+
+a{
+	color:green;
+		font-size: 28px;
+}
+h1 {
+    color: green ;
+	font-size: 34px ;
+}
+h2{
+	color:green;
+	font-size: 30px ;
+}
  
+ul{color:green;
+size:big;}
+}
+  
+table {
+    border-collapse: collapse;
+    width: 100%;
+ 
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+	color:#A9DAFF ;
+	font-size: 34px;
+}
+
+tr{background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: #A9DAFF;
+}
